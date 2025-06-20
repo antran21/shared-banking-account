@@ -6,5 +6,5 @@ class SavingsAccount:
     __routing_number = None
 
     def __init__(self, account_number, routing_number):
-        this.__account_number = account_number
-        this.__routing_number = routing_number
+        self.__account_number = account_number
+        self.__routing_number = routing_number
