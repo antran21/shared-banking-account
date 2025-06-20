@@ -1,11 +1,10 @@
 class BankAccount:
     bank_name = "Angel's Bank"
-    def __init__(self, customer_name, current_balance, minimum_balance, account_number, routing_number):
+    def __init__(self, customer_name, current_balance, minimum_balance):
         self.customer_name = customer_name
         self.current_balance = current_balance
         self.minimum_balance = minimum_balance
-        self.account_number = account_number
-        self.routing_number = routing_number
+
 
     def deposit(self, amount):
         self.current_balance = self.current_balance + amount
