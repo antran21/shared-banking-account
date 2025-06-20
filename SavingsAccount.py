@@ -1,6 +1,6 @@
-import BankingAccount
+from BankAccount import BankAccount
 
-class SavingsAccount(BankingAccount):
+class SavingsAccount(BankAccount):
 
     _accountNumber = None
     __routingNumber = None

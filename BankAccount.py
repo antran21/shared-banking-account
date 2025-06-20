@@ -1,6 +1,3 @@
-import SavingsAccount
-import CheckingAccount
-
 class BankAccount:
     bankTitle = "UNC Charlotte Bank"
 
